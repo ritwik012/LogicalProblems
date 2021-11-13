@@ -22,8 +22,12 @@ namespace LogicalPrograms
                         number.Perfect();
                         break;
                     case 3:
+                        PrimeNumber num = new PrimeNumber();
+                        num.Prime();
                         break;
                     case 4:
+                        ReverseANumber rev = new ReverseANumber();
+                        rev.Reverse();
                         break;
                     case 5:
                         flag = false;
